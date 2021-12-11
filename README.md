@@ -3,4 +3,6 @@ Originally developed as module for my utility client to use on anarchy servers, 
 
 Note: The only way to fix log4j vulnerability is to update the library, you can update library by updating your Forge installation. Try to avoid using sketchy mods as these might contain vulnerabilities too (a very dumb example: if someone for some godforsaken reason decides to include a vulnerable log4j version right in mod jar, it might override version imported by Forge/vanilla Minecraft. Note that in reality it's very unlikely that a modder would do that - it makes no sense, but you should know that this *is* possible)
 
-![Screenshot](https://i.imgur.com/1kekzES.png)
+![Screenshot 1](https://i.imgur.com/4Us3fpS.png)
+![Screenshot 2](https://i.imgur.com/4zyuzJ0.png)
+![Screenshot 3](https://i.imgur.com/VRmfgZr.png)
