@@ -3,6 +3,9 @@
   "compatibilityLevel": "JAVA_8",
   "package": "me.moondark.log4jsafetycheck.mixin",
   "client": [
-    "MixinGuiConnecting"
+    "MixinGui",
+    "MixinGuiScreen",
+    "MixinGuiConnecting",
+    "MixinGuiMultiplayer"
   ]
 }
