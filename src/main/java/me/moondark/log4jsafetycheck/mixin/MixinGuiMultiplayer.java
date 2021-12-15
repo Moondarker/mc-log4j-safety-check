@@ -22,6 +22,8 @@ public abstract class MixinGuiMultiplayer extends MixinGuiScreen {
 
         if (Integer.valueOf(log4jVersionSplit[0]) == 2 && Integer.valueOf(log4jVersionSplit[1]) < 15) {
             this.log4jVersionString = "log4j v" + ChatFormatting.RED + this.log4jVersionString;
+        } else if (Integer.valueOf(log4jVersionSplit[0]) == 2 && Integer.valueOf(log4jVersionSplit[1]) == 15) {
+            this.log4jVersionString = "log4j v" + ChatFormatting.YELLOW + this.log4jVersionString;
         } else {
             this.log4jVersionString = "log4j v" + ChatFormatting.GREEN + this.log4jVersionString;
         }
