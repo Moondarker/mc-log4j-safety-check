@@ -5,7 +5,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid = "log4jsafetycheck", name = "Log4jSafetyChecker", version = Log4jSafetyChecker.VERSION)
 public final class Log4jSafetyChecker {
-	public static final String VERSION = "1.02";
+	public static final String VERSION = "1.03";
 
     @Mod.EventHandler
     public void onPreInit(FMLPreInitializationEvent event) {
